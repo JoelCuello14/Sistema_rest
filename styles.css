@@ -1,0 +1,229 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+section {
+    margin: 20px;
+}
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Centering the Form */
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 100px;
+    margin-top: 40px;
+}
+
+form {
+    background-color: white;
+    width: 50%;
+    max-width: 600px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Form Content */
+form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button,
+input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    margin-top: 30px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Dish Selection */
+#dish-container {
+    margin-top: 20px;
+}
+
+.dish-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.dish-row select,
+.dish-row input[type="number"] {
+    flex: 1;
+}
+
+/* Success Message */
+.success-message {
+    color: green;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 20px;
+}
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #333;
+    color: white;
+    font-size: 1.2em;
+}
+
+table tr:hover {
+    background-color: #f5f5f5;
+}
+
+table tr:last-child td {
+    border-bottom: none;
+}
+
+table td {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Ajustes para dispositivos móviles */
+@media (max-width: 600px) {
+    header nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    table {
+        width: 95%;
+    }
+
+    table th, table td {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+}
+
+#menuh1{
+font-size: 200px;
+
+}
+ul{
+    padding: 20px;
+}
+li{
+    padding: 20px;
+}
