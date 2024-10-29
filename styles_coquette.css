@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #ffffff; /* Color rosado pálido */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+
+}
+
+.container {
+    background-color: #ffffff; /* Blanco puro */
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+
+}
+
+h2 {
+    text-align: center;
+    color: #000000; /* Color rosa intenso */
+    margin-bottom: 15px;
+    font-family: 'Cursive', sans-serif;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 5px;
+    margin-bottom: 12px;
+    border: 4px solid #ffffff;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #f8f8f8; /* Fondo color crema */
+    color: #694949;
+}
+
+input[type="submit"] {
+    background-color: #000000;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Cursive', sans-serif;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff1493; /* Rosa más oscuro */
+}
+
+/* Links */
+a {
+    color: #6d67ec;
+    text-decoration: none;
+    display: block;
+justify-content: center;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: 'Cursive', sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Dashboard Styles */
+.dashboard {
+    text-align: center;
+}
+
+.dashboard a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #000000; /* Color magenta */
+}
+
+.dashboard a:hover {
+    color: #b03060; /* Color rosa oscuro */
+}
